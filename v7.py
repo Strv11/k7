@@ -202,7 +202,7 @@ def krekefbi():
 def jancok():
 	dump_publik()
 def coy():
-	dump_masal()
+	dump_massal()
 def bangsat():
 	grup()
 def lonte():
