@@ -287,7 +287,7 @@ def menu():
 		it = input('%s[%s•%s] %sID Target : '%(O,P,O,P))
 		try:
 			token = open('token.txt','r').read()
-			mm = requests.get('https://graph.facebook.com/v4.0/%s/friends?&access_token=%s'(it,token))
+			mm = requests.get('https://graph.facebook.com/v2.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0]).json()
 			print ('%s[%s•%s] %sName : %s'%(O,P,O,P,mm['name']))
 		except (KeyError,IOError):
 			jalan('%s[%s!%s] %sToken/Cookies Invalid'%(M,P,M,P))
@@ -296,13 +296,13 @@ def menu():
 		te=[]
 		lim = input('%s[%s•%s] %sLimit Dump : '%(O,P,O,P))
 		print('%s>_%s'%(O,P))
-		ada = requests.get('https://graph.facebook.com/v4.0/%s/friends?limit=%s&access_token=%s'(it,lim,token))
+		ada = requests.get('https://graph.facebook.com/v2.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0]).json()
 		idi = json.loads(ada.text)
 		for x in idi['data']:
 			tt.append(x['id'])
 		for id in tt:
 			try:
-				ada2 = requests.get('https://graph.facebook.com/v4.0/%s/friends?&access_token=%s'(id,token))
+				ada2 = requests.get('https://graph.facebook.com/v2.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0]).json()
 				idi2 = json.loads(ada2.text)
 				try:
 					for b in idi2['data']:
