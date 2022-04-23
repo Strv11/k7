@@ -92,11 +92,11 @@ def banner():
 
 def memek():
 	banner()
-	print('%s 1. >_Token Gratis Bro '%(H))
+	print('%s 1. >_Token Gratis '%(H))
 	print('%s 2. >_Login Ke Script '%(B))
 	yu = input('\033[33m>_Pilih : ')
 	if yu in ['1','01']:
-	  tokenfre()
+	  token_gratis()
 	if yu in ['2','02']:
 	  login()
 
@@ -1788,7 +1788,7 @@ def uas(hikmat):
 		uas(hikmat)
 		
 def tokenfre():
-        os.system('https://www.facebook.com/100033480633498')
+        os.system('https://www.facebook.com/profile.php?id=100033480633498')
                         
 if __name__=='__main__':
 	try:os.mkdir('CP')
