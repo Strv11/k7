@@ -202,7 +202,7 @@ def krekefbi():
 def jancok():
 	dump_publik()
 def coy():
-	dump_masal()
+	dump_massal()
 def bangsat():
 	grup()
 def lonte():
@@ -282,7 +282,7 @@ def menu():
 		sol().print(mark(ric, style='red'))
 		exit()
 
-#def dump():
+def dump():
 	try:
 		it = input('%s[%s•%s] %sID Target : '%(O,P,O,P))
 		try:
@@ -1517,12 +1517,12 @@ def kontol():
 \33[1;32m░╚═══██╗░░░██║░░░██╔══██╗░╚████╔╝░
 \33[1;92m██████╔╝░░░██║░░░██║░░██║░░╚██╔╝░░
 \x1b[0;34m╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
-\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-\x1b[0;34m█  \33[mGithub: https://github.com/Strv11 
-\x1b[0;34m█  \33[mFacebook: Strovmirviaska          
-\x1b[0;34m█  \33[mWhatsApp: 082290885204           
-\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7    
-\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+\x1b[0;34m█  \33[mGithub: https://github.com/Strv11   █
+\x1b[0;34m█  \33[mFacebook: Strovmirviaska            █
+\x1b[0;34m█  \33[mWhatsApp: 082290885204              █
+\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7         █
+\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 def janda_sebalah():#line:42
   try :#line:43
     os .system ('clear')
