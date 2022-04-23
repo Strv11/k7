@@ -169,7 +169,7 @@ def krekefbi():
 	banner()
 	print('[Token>>>> :  '+str(tokenku)) 
 	print('[01]>_Crack ID Public')
-	print('[02]>_Crack ID Public [ERROR]')
+	print('[02]>_Crack ID Public [Massal]')
 	print('[03]>_Crack ID Grup')
 	print('[04]>_Crack ID Followers')
 	jalan('>_Menu Set Useragent')
@@ -1517,12 +1517,12 @@ def kontol():
 \33[1;32m░╚═══██╗░░░██║░░░██╔══██╗░╚████╔╝░
 \33[1;92m██████╔╝░░░██║░░░██║░░██║░░╚██╔╝░░
 \x1b[0;34m╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
-\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-\x1b[0;34m█  \33[mGithub: https://github.com/Strv11   █
-\x1b[0;34m█  \33[mFacebook: Strovmirviaska            █
-\x1b[0;34m█  \33[mWhatsApp: 082290885204              █
-\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7         █
-\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+\x1b[0;34m█  \33[mGithub: https://github.com/Strv11 
+\x1b[0;34m█  \33[mFacebook: Strovmirviaska          
+\x1b[0;34m█  \33[mWhatsApp: 082290885204           
+\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7    
+\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 def janda_sebalah():#line:42
   try :#line:43
     os .system ('clear')
@@ -1797,4 +1797,3 @@ if __name__=='__main__':
 	except:pass
 	#licensi
 	janda_sebalah()
-
