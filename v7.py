@@ -86,9 +86,9 @@ def banner():
 	wel = '>_Hello Selamat Menggunakan Tolls'
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2)
-	au=' >_github > https://github.com/Strv11 >_Author > Strv11  >_Facebook > Teddy Cahyo Putra Pangembara >_WhatsApp > 082290885204'
+	au=' 𝐆𝐈𝐓𝐇𝐔𝐁 : https://github.com/Strv11 𝐀𝐔𝐓𝐇𝐎𝐑 : > Strv11 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 : Teddy Cahyo Putra Pangembara 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 : 082290885204'
 	pengembang1=nel(au,style="green")
-	cetak(nel(pengembang1, title='>_Ingfo Sc'))
+	cetak(nel(pengembang1, title='𝗦𝘁𝗿𝗼𝘃𝗺𝗶𝗿𝘃𝗶𝗮𝘀𝗸𝗮 𝗩𝟳'))
 
 def memek():
 	banner()
@@ -151,7 +151,7 @@ def login_lagi():
 def menu_test():
 	jalan('Wait....... ')
 	print('>_Selamat Datang')
-	print('[01] >_Menu Crack Facebook/Set Useragent/CheckAPK')
+	print('[01] >_Menu Scrip StrovmirViaska V7')
 	print('[02] >_Menu BOT')
 	print('[00] >_Exit') 
 	kanjut = input('>_Pilih  :')
