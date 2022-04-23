@@ -172,7 +172,7 @@ def krekefbi():
 	print('[02]>_Crack ID Public [Massal]')
 	print('[03]>_Crack ID Grup')
 	print('[04]>_Crack ID Followers')
-	jalan('\33[1;32m>_Menu Set Useragent')
+	jalan('>_Menu Set Useragent')
 	print('[05]>_Set UserAGENT')
 	jalan('>_Menu CheckOpsi/Hasil OK CP')
 	print('[06]>_Check Opsi Hasil Checkpoint')
