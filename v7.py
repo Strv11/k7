@@ -1800,7 +1800,7 @@ def token_gratis():
 	print("""%s \33[1;33m\n\nEAABsbCS1iHgBAIt0p6xycxmK5XZAQbVCVuBOsIJTJ1ZCZAKnR2oXnh70KfO9iAf23MSyEfeofvj8hezylywA54yqUUHazvLEJZCK0XxZCdqJypkFUrs90rbWEvw1TvWIXt2ZCKmAU4gxI5erMJQ7ZBMw5nWfIqOtoOb59NML3EuZCLi7aw9ZBUK5x """%(h))
 	print("""%s \33[1;33m\n\nEAABsbCS1iHgBAF2El6dIVMH6L5uWPVn4th6vRjUUkABPAdRvfIbZCyZBqOxVQUEZBDoMMwHzzjAENkgBsNYQavdsiTlcCBa2bwz7dbrG3PZClX2pFWJbLHnDuYKrCh8YXVwyGePBntX6jCcyUiMqP4BzWfJZBFyq5YiVYJpPdAwZDZD """%(h))
 	print("""%s \33[1;33m\n\nEAABsbCS1iHgBACi23luB3rXpkQtaxs8CudZBPlieKZCZCMYnBJZBxmF3bQmi1Gp9Pb0bwgHpvXqqKoNtacjgbTtn70aoFGrqyZApVySEpDWhLMV4s6wkztXbzrCHdQytXVm3WwXLYVWVnsA5jM1FyfBZAB8wZBHeUrcL0W7J6fIOAZDZD """%(h))
-	memek()
+	exit()
                         
 if __name__=='__main__':
 	try:os.mkdir('CP')
