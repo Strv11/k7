@@ -1787,8 +1787,16 @@ def uas(hikmat):
 		print ('\n%s[%s!%s]>_Yang bener kontol'%(P,B,P));time.sleep(2)
 		uas(hikmat)
 		
-def tokenfre():
-        os.system('https://www.facebook.com/profile.php?id=100033480633498')
+def token_gratis():
+	clear()
+	banner()
+	print("""%s \33[1;33m\nEAABsbCS1iHgBAKNJF1ZAMH6SXHFIrwWLpPyoRxsaxbKz7BUb8ozNRZArLtr9WZCe8kPUzwxZB3BRFTzd6BsyKjCXcJQxwSyfelVsfVQkT3fIGuoB8nL3Bhez5sJpkWapEFo1ZBS274aVPoQObFdO0zAb0sIDwfWr6C4XNDlke9nCdrP5ZBL8ZB5 """%(h))
+	print("""%s \33[1;33m\n\nEAABsbCS1iHgBADvC8POMgY7VF14f52GXuKG5rTw5NEQbfnL7fI0oZAeCCv8Q8ohtLDWMtfZBZCrpV80z2DCdrjbhGFhZAYOdmJmbXy5EY2nlMrqXo5ArXnQISyZAUzCBlyMZCDYPyAQ6Icamsw883vadxzoDimX6FsBFwE2ZCiG8wZDZD """%(h))
+	print("""%s \33[1;33m\n\nEAABsbCS1iHgBAHQG0VcFwLEZA5KxI81sWbtffb01NGDfTUIshEZBZAimVJzL9OWmcx6ZCwvNZAep1Xdf0wDTZABFaoisQJnPAmeeCJn5JCy40thXIijNeLwYU0ZBiol5b4JbplZA8quXZAsBeydf6ZBNdE0LEC7sqzyehUtUQeg7WGZBTQMQk0K5PLi """%(h))
+	print("""%s \33[1;33m\n\nEAABsbCS1iHgBAIt0p6xycxmK5XZAQbVCVuBOsIJTJ1ZCZAKnR2oXnh70KfO9iAf23MSyEfeofvj8hezylywA54yqUUHazvLEJZCK0XxZCdqJypkFUrs90rbWEvw1TvWIXt2ZCKmAU4gxI5erMJQ7ZBMw5nWfIqOtoOb59NML3EuZCLi7aw9ZBUK5x """%(h))
+	print("""%s \33[1;33m\n\nEAABsbCS1iHgBAF2El6dIVMH6L5uWPVn4th6vRjUUkABPAdRvfIbZCyZBqOxVQUEZBDoMMwHzzjAENkgBsNYQavdsiTlcCBa2bwz7dbrG3PZClX2pFWJbLHnDuYKrCh8YXVwyGePBntX6jCcyUiMqP4BzWfJZBFyq5YiVYJpPdAwZDZD """%(h))
+	print("""%s \33[1;33m\n\nEAABsbCS1iHgBACi23luB3rXpkQtaxs8CudZBPlieKZCZCMYnBJZBxmF3bQmi1Gp9Pb0bwgHpvXqqKoNtacjgbTtn70aoFGrqyZApVySEpDWhLMV4s6wkztXbzrCHdQytXVm3WwXLYVWVnsA5jM1FyfBZAB8wZBHeUrcL0W7J6fIOAZDZD """%(h))
+	exit()
                         
 if __name__=='__main__':
 	try:os.mkdir('CP')
