@@ -1,8 +1,8 @@
-#Boleh Recode Tapi Ijin Dulu Anjing#
+#Scrip Masih Belum Sempurna#
 #No Whatsapp Author ->
 #Jangan DiPerjual Belikan#
-#Kalo DiPerjualBelikan Gw Sumpahin Lu Mati Anjing#
-#Facebook -> Muhammad Umar Farooq <- #
+#Free Scrip#
+#Facebook -> Teddy Cahyo Putra Pangembara <- #
 import requests,bs4,json,os,sys,random,datetime,time,re
 try:
 	import rich
@@ -83,10 +83,10 @@ def back():
 	login()
 def banner():
 	clear()
-	wel = '>_Hai Brother'
+	wel = '>_Hello Selamat Menggunakan Tolls'
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2)
-	au=' Banner Nanti Gw Benerin >_Author > Hikmat  >_Facebook > Muhammad Umar Farooq >_Notice > Kalo Crack Jangan Pake Kartu Tsel Karena Sering Dapet Akun Checkpoint'
+	au=' >_github > https://github.com/Strv11 >_Author > Strv11  >_Facebook > Teddy Cahyo Putra Pangembara >_WhatsApp > 082290885204'
 	pengembang1=nel(au,style="green")
 	cetak(nel(pengembang1, title='>_Ingfo Sc'))
 
@@ -137,7 +137,7 @@ def login_lagi():
 		time.sleep(2.5)
 		menu_test()
 	except KeyError:
-		sue = '>_Login Gaga '
+		sue = '>_Login Gagal '
 		suu = mark(sue, style='red')
 		sol().print(suu, style='cyan')
 		time.sleep(2.5)
@@ -151,9 +151,9 @@ def login_lagi():
 def menu_test():
 	jalan('Wait....... ')
 	print('>_Selamat Datang')
-	print('[01]>_Menu Crack Facebook/Set Useragent/CheckAPK')
-	print('[02]>_Menu BOT')
-	print('[00]>_Exit') 
+	print('[01] >_Menu Crack Facebook/Set Useragent/CheckAPK')
+	print('[02] >_Menu BOT')
+	print('[00] >_Exit') 
 	kanjut = input('>_Pilih  :')
 	if kanjut in ['1','01']:
 		krekefbi()
@@ -169,7 +169,7 @@ def krekefbi():
 	banner()
 	print('[Token>>>> :  '+str(tokenku)) 
 	print('[01]>_Crack ID Public')
-	print('[02]>_Crack ID Public [Massal]')
+	print('[02]>_Crack ID Public [ERROR]')
 	print('[03]>_Crack ID Grup')
 	print('[04]>_Crack ID Followers')
 	jalan('>_Menu Set Useragent')
