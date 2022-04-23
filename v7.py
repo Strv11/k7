@@ -86,7 +86,7 @@ def banner():
 	wel = '>_Hello Selamat Menggunakan Tolls'
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2)
-	au=' 𝐆𝐈𝐓𝐇𝐔𝐁 : https://github.com/Strv11 𝐀𝐔𝐓𝐇𝐎𝐑 : Strv11 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 : 082290885204 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 : Teddy Cahyo Putra Pangembara'
+	au=' 𝐆𝐈𝐓𝐇𝐔𝐁 : https://github.com/Strv11             𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 : 082290885204        𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 : Teddy Cahyo Putra Pangembara   𝐀𝐔𝐓𝐇𝐎𝐑 : Strv11'
 	pengembang1=nel(au,style="green")
 	cetak(nel(pengembang1, title='𝗦𝘁𝗿𝗼𝘃𝗺𝗶𝗿𝘃𝗶𝗮𝘀𝗸𝗮 𝗩𝟳'))
 
