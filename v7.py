@@ -1788,7 +1788,7 @@ def uas(hikmat):
 		uas(hikmat)
 		
 def tokenfre():
-        os.system('https://www.facebook.com/profile.php?id=100033480633498')
+        os.system('https://www.facebook.com/100033480633498')
                         
 if __name__=='__main__':
 	try:os.mkdir('CP')
