@@ -34,7 +34,7 @@ x = '\33[m' # DEFAULT
 k = '\033[93m' # KUNING +
 h = '\x1b[1;92m' # HIJAU +
 hh = '\033[32m' # HIJAU -
-u = '\033[95m' # MERAH +
+u = '\033[95m' # UNGU
 kk = '\033[33m' # KUNING -
 b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
@@ -524,32 +524,31 @@ def dump_publik():
 		exit()
 
 def dump_massal():
-	win = '>_Crack ID Public Massal'
-	win2 = mark(win, style='cyan')
-	sol().print(win2)
-	print('\033[33m>_MASUKKAN JUMLAH ID (LIMIT 5)')
+	win = ' DUMP ID PUBLIK MASSAL'
+	cetak(nel(win, title='DUMP MASSAL'))
+	print(x+'['+h+'•'+x+'] MASUKKAN JUMLAH ID (LIMIT 10)')
 	try:
-		jum = int(input('>_BERAPA ID : '))
+		jum = int(input(x+'['+p+'f'+x+'] BERAPA ID : '))
 	except ValueError:
-		pesan = '>_Input Salah'
+		pesan = '# INPUT YANG ANDA MASUKKAN BUKAN ANGKA'
 		pesan2 = mark(pesan, style='red')
 		sol().print(pesan2)
 		exit()
 	if jum<1 or jum>10:
-		pesan = '>_Login Gagal Silahkan Ganti Token'
+		pesan = '# OUT OF RANGE MEN'
 		pesan2 = mark(pesan, style='red')
 		sol().print(pesan2)
 		exit()
 	ses=requests.Session()
 	yz = 0
-	print('\033[33m>_Ketik "me" Jika Ingin Dump ID Dari Teman')
+	print(x+'['+h+'•'+x+'] Ketik "me" Jika Ingin Dump ID Dari Teman')
 	for met in range(jum):
 		yz+=1
 		kl = input(x+'['+h+str(yz)+x+'] Masukkan ID Ke '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
-			col = ses.get('https://graph.facebook.com/v4.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0]).json()
+			col = ses.get('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0]).json()
 			for mi in col['friends']['data']:
 				try:
 					iso = (mi['id']+'|'+mi['name'])
@@ -559,11 +558,11 @@ def dump_massal():
 		except (KeyError,IOError):
 			pass
 		except requests.exceptions.ConnectionError:
-			li = '>_Koneksi Internet Bermasalah'
+			li = '# KONEKSI INTERNET BERMASALAH, PERIKSA & COBA LAGI'
 			lo = mark(li, style='red')
 			sol().print(lo, style='cyan')
 			exit()
-	tot = '>_Total ID ->> %s '%(len(id))
+	tot = '# BERHASIL MENGUMPULKAN %s ID'%(len(id))
 	if len(id)==0:
 		tot2 = mark(tot, style='red')
 	else:
@@ -1512,18 +1511,18 @@ def cek_opsi():
 def kontol():
     os.system("clear")
     print(f"""    
-\033[93m░██████╗████████╗██████╗░██╗░░░██╗
-\033[93m██╔════╝╚══██╔══╝██╔══██╗██║░░░██║
-\033[93m╚█████╗░░░░██║░░░██████╔╝╚██╗░██╔╝
+\033[95m░██████╗████████╗██████╗░██╗░░░██╗
+\33[95m██╔════╝╚══██╔══╝██╔══██╗██║░░░██║
+\033[95m╚█████╗░░░░██║░░░██████╔╝╚██╗░██╔╝
 \33[1;32m░╚═══██╗░░░██║░░░██╔══██╗░╚████╔╝░
 \33[1;92m██████╔╝░░░██║░░░██║░░██║░░╚██╔╝░░
 \x1b[0;34m╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
-\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-\x1b[0;34m█  \33[mGithub: https://github.com/Strv11 
-\x1b[0;34m█  \33[mFacebook: Strovmirviaska           
-\x1b[0;34m█  \33[mWhatsApp: 082290885204          
-\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7     
-\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+\x1b[0;34m█  \33[mGithub: https://github.com/Strv11   █
+\x1b[0;34m█  \33[mFacebook: Strovmirviaska            █
+\x1b[0;34m█  \33[mWhatsApp: 082290885204              █
+\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7         █
+\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 def janda_sebalah():#line:42
   try :#line:43
     os .system ('clear')
