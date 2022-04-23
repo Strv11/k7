@@ -168,11 +168,11 @@ def menu_test():
 def krekefbi():
 	banner()
 	print('\33[31m[Token>>>> :  '+str(tokenku)) 
-	print('\33[31m[01]>_Crack ID Public')
+	print('[01]>_Crack ID Public')
 	print('[02]>_Crack ID Public [Massal]')
 	print('[03]>_Crack ID Grup')
 	print('[04]>_Crack ID Followers')
-	jalan('>_Menu Set Useragent')
+	jalan('\33[1;32m>_Menu Set Useragent')
 	print('[05]>_Set UserAGENT')
 	jalan('>_Menu CheckOpsi/Hasil OK CP')
 	print('[06]>_Check Opsi Hasil Checkpoint')
