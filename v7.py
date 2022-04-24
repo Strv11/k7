@@ -87,7 +87,7 @@ def banner():
 	wel = '>_𝑯𝑬𝑳𝑳𝑶 𝑨𝑵𝑫𝑨 𝑩𝑬𝑹𝑯𝑨𝑺𝑰𝑳 𝑴𝑨𝑺𝑼𝑲'
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2)
-	au='🅢🅘🅛🅐🅗🅚🅐🅝 🅛🅞🅖🅘🅝 🅤🅝🅣🅤🅚 🅜🅔🅝🅖🅤🅝🅐🅚🅐🅝 🅣🅞🅛🅛🅢 🅚🅐🅜🅘'
+	au='🅢🅘🅛🅐🅗🅚🅐🅝 🅤🅝🅣🅤🅚 🅜🅔🅝🅖🅖🅤🅝🅚🅐🅝 🅣🅞🅞🅛🅢 🅑🅤🅐🅣🅐🅝 🅢🅐🅨🅐'
 	pengembang1=nel(au,style="green")
 	cetak(nel(pengembang1, title='𝗦𝘁𝗿𝗼𝘃𝗺𝗶𝗿𝘃𝗶𝗮𝘀𝗸𝗮 𝗩𝟳'))
 
@@ -169,13 +169,13 @@ def menu_test():
 def krekefbi():
 	banner()
 	print('[𝑻𝒐𝒌𝒆𝒏 𝑨𝒏𝒅𝒂>>>> :  '+str(tokenku)) 
-	print('[01]>_𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑷𝒖𝒃𝒍𝒊𝒌')
-	print('[02]>_𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑷𝒖𝒃𝒍𝒊𝒄 [𝑴𝒂𝒔𝒔𝒂𝒍]')
-	print('[03]>_𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑮𝒓𝒖𝒑')
+	print('[01] 𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑷𝒖𝒃𝒍𝒊𝒌')
+	print('[02] 𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑷𝒖𝒃𝒍𝒊𝒄 [𝑴𝒂𝒔𝒔𝒂𝒍]')
+	print('[03] 𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑮𝒓𝒖𝒑')
 	jalan('>_𝑴𝒆𝒏𝒖 𝑪𝒉𝒆𝒄𝒌𝑶𝒑𝒔𝒊/𝑯𝒂𝒔𝒊𝒍 𝑶𝑲/𝑪𝑷')
-	print('[04]>_𝑪𝒉𝒆𝒄𝒌 𝑶𝒑𝒔𝒊 𝑯𝒂𝒔𝒊𝒍 𝑪𝒉𝒆𝒄𝒌𝒑𝒐𝒊𝒏𝒕')
-	print('[05]>_𝑪𝒆𝒌 𝑯𝒂𝒔𝒊𝒍 𝑪𝒓𝒂𝒄𝒌 𝑶𝑲/𝑪𝑷')
-	print('[00]>_𝑬𝒙𝒊𝒕') 
+	print('[04] 𝑪𝒉𝒆𝒄𝒌 𝑶𝒑𝒔𝒊 𝑯𝒂𝒔𝒊𝒍 𝑪𝒉𝒆𝒄𝒌𝒑𝒐𝒊𝒏𝒕')
+	print('[05] 𝑪𝒆𝒌 𝑯𝒂𝒔𝒊𝒍 𝑪𝒓𝒂𝒄𝒌 𝑶𝑲/𝑪𝑷')
+	print('[00] 𝑬𝒙𝒊𝒕') 
 	badag = input('>_ 𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝑷𝒊𝒍𝒊𝒉. :  ')
 	if badag in ['1','01']:
 		jancok()
@@ -567,7 +567,7 @@ def setting():
 		exit()
 	met = '>_𝑷𝒊𝒍𝒊𝒉 𝑴𝒆𝒕𝒉𝒐𝒅𝒔 𝑪𝒓𝒂𝒄𝒌'
 	sol().print(mark(met, style='cyan'))
-	ioz = '[01] >_Methode B-Api\n[02] >_Methode Mobile\n[03] >_Methode Mbasic\n[04]>_Methode Touch [New]\n[05]>_Methode FB X [New]\n[06]>_Methode Free FB [New]'
+	ioz = '[01] Methode B-Api\n[02] Methode Mobile\n[03] Methode Mbasic\n[04] Methode Touch [New]\n[05] Methode FB X [New]\n[06] Methode Free FB [New]'
 	gess = nel(ioz, style='cyan')
 	cetak(nel(gess, title='>_Methode'))
 	hc = input('\033[33m>_Pilih : ')
@@ -580,14 +580,14 @@ def setting():
 		method.append('touch')
 		method.append('xfb')
 		method.append('free')
-	guw = '>_Opsi Crack'
+	guw = '>_𝑶𝒑𝒔𝒊 𝑪𝒓𝒂𝒄𝒌'
 	sol().print(mark(guw, style='cyan'))
-	aplik = input('\033[33m>_Tampilkan Aplikasi Terkait ? (y/t) : ')
+	aplik = input('\033[33m 𝑻𝒂𝒎𝒑𝒊𝒍𝒌𝒂𝒏 𝑨𝒑𝒍𝒊𝒌𝒂𝒔𝒊 𝑻𝒆𝒓𝒌𝒂𝒊𝒕 ? (𝒚/𝒕) : ')
 	if aplik in ['y','Y']:
 		taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
-	osk = input('\033[33m>_Tampilkan Opsi Checkpoint? [ Not Recommended ] (y/t) : ')
+	osk = input('\033[33m>_𝑻𝒂𝒎𝒑𝒊𝒍𝒌𝒂𝒏 𝑶𝒑𝒔𝒊 𝑪𝒉𝒆𝒄𝒌𝒑𝒐𝒊𝒏𝒕 ? [ 𝑻𝒊𝒅𝒂𝒌 𝑫𝒊𝒔𝒂𝒓𝒂𝒏𝒌𝒂𝒏 ] (𝒚/𝒕) : ')
 	if osk in ['y','Y']:
 		oprek.append('ya')
 	else:
@@ -1456,7 +1456,7 @@ def kontol():
 \33[37m██████╔╝░░░██║░░░██║░░██║░░╚██╔╝░░
 \33[37m╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
 \x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-\x1b[0;34m█  \33[m𝑮𝒊𝒕𝒉𝒖𝒃: 𝒉𝒕𝒕𝒑𝒔//𝒈𝒊𝒕𝒉𝒖𝒃.𝒄𝒐𝒎/𝑺𝒓𝒕𝒗11   
+\x1b[0;34m█  \33[m𝑮𝒊𝒕𝒉𝒖𝒃: 𝒉𝒕𝒕𝒑𝒔//𝒈𝒊𝒕𝒉𝒖𝒃.𝒄𝒐𝒎/𝑺𝒓𝒕𝒗_𝟏𝟏   
 \x1b[0;34m█  \33[m𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌: 𝑻𝒆𝒅𝒅𝒚 𝑪𝒂𝒉𝒚𝒐 𝑷𝒖𝒕𝒓𝒂 𝑷𝒂𝒏𝒈𝒆𝒎𝒃𝒂𝒓𝒂           
 \x1b[0;34m█  \33[m𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑: 𝟬𝟴𝟮𝟮𝟵𝟬𝟴𝟴𝟱𝟮𝟬𝟰             
 \x1b[0;34m█  \33[m𝑻𝒐𝒐𝒍𝒔 : \33[1;96m 𝑺𝒄𝒓𝒊𝒑𝒕 𝑷𝒓𝒆𝒎𝒊𝒖𝒎    
