@@ -93,9 +93,9 @@ def banner():
 
 def memek():
 	banner()
-	print('%s 1. >_Token Gratis '%(H))
-	print('%s 2. >_Login Ke Script '%(B))
-	yu = input('\033[33m>_Pilih : ')
+	print('%s 1. >_𝑻𝒐𝒌𝒆𝒏 𝑮𝒓𝒂𝒕𝒊𝒔 '%(H))
+	print('%s 2. >_𝑳𝒐𝒈𝒊𝒏 𝑲𝒆 𝑺𝒄𝒓𝒊𝒑𝒕 '%(B))
+	yu = input('\033[33m>_𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝑷𝒊𝒍𝒊𝒉 : ')
 	if yu in ['1','01']:
 	  token_gratis()
 	if yu in ['2','02']:
@@ -1474,7 +1474,7 @@ def janda_sebalah():#line:42
     if OOO00O0OOO00OO00O in ['1','01']:#line:51
       print (f"{H}[{P}!{H}]{P} Send Message..");time .sleep (3 );os .system ('xdg-open https://wa.me/6282290885204?text=Bang+Kok+kamu+ganteng+sih');exit ()#line:52
     elif OOO00O0OOO00OO00O in ['2','02']:#line:53
-      O000O000OOO000OOO =input (f"{H}[{P}?{H}]{P} Api Key :{K} ")#line:54
+      O000O000OOO000OOO =input (f"{H}[{P}?{H}]{P} 𝑨𝒑𝒊 𝑲𝒆𝒚 :{K} ")#line:54
       if len (O000O000OOO000OOO )==0 :#line:55
         exit (f"{P}[{M}!{P}]{M} Jangan Kosong")#line:56
       else :#line:57
