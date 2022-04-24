@@ -80,9 +80,6 @@ okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 def clear():
 	os.system('clear')
-def back():
-	memek()
-
 def banner():
 	 clear()
 	 banner()
