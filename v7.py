@@ -83,13 +83,18 @@ def clear():
 def back():
 	login()
 def banner():
-	clear()
-	wel = '>_Hello Selamat Menggunakan Tolls'
-	wel2 = mark(wel, style='cyan')
-	sol().print(wel2)
-	au=' 𝐆𝐈𝐓𝐇𝐔𝐁 : https://github.com/Strv11 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 : 082290885204 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 : Teddy Cahyo Putra Pangembara 𝐀𝐔𝐓𝐇𝐎𝐑 : Strv11'                 
-	pengembang1=nel(au,style="green")
-	cetak(nel(pengembang1, title='𝗦𝘁𝗿𝗼𝘃𝗺𝗶𝗿𝘃𝗶𝗮𝘀𝗸𝗮 𝗩𝟳'))
+	 os.system("clear")
+    print(f"""    __    _________________   _______ ______
+   / /   /  _/ ____/ ____/ | / / ___// ____/
+  / /    / // /   / __/ /  |/ /\__ \/ __/
+ / /____/ // /___/ /___/ /|  /___/ / /___
+/_____/___/\____/_____/_/ |_//____/_____/
+
+{P}[•]{B}----------------------------------------------------{P}[•]
+{B} |
+{P}[•] AUTHOR : STROVMIRVIASKA
+{P}[•] WHATSAPP : 082290885204
+{B}[•] FACEBOOK : Teddy Cahyo Putra Pangembara""")
 
 def memek():
 	banner()
