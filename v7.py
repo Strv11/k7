@@ -227,10 +227,10 @@ def menu():
 	sg = '>_Menu Tools Crack Facebook'
 	fx = mark(sg, style='red')
 	sol().print(fx)
-	  print(x+'['+h+'•'+x+'] \033[0;33m>_Nama Kamu  : '+str(my_name))
-	  print(x+'['+h+'•'+x+'] \033[0;33m>_ID Kamu    : '+str(my_id))
-	  print(x+'['+h+'•'+x+'] \033[33m>_Tanggal Kamu  : '+str(birth))
-	  print(x+'['+h+'•'+x+'] \033[33m>_IP Kamu   : '+str(sh['origin']))
+	  print\033[0;33m>_Nama Kamu  : '+str(my_name))
+	  print\033[0;33m>_ID Kamu    : '+str(my_id))
+	  print\033[33m>_Tanggal Kamu  : '+str(birth))
+	  print\033[33m>_IP Kamu   : '+str(sh['origin']))
 	io = '\x1b[1;95m[01] >_Crack Dari Pertemanan Publik\n\x1b[1;95m[02] >_Crack ID Dari Akun Publik (Massal) \n\x1b[1;95m[03] >_Crack Dari Grup\n\x1b[1;95m[04] >_Cek Hasil Crack\n\033\x1b[1;95m[05] >_Cek Hasil Crack [00] >_Keluar'
 	oi = nel(io, style='cyan')
 	cetak(nel(oi, title='>_Pilih 1 Sampai 8'))
