@@ -100,7 +100,6 @@ print("""%s\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7 """%(h))
 print("""%s\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"""%(h))
 
 def memek():
-	try :#line:43
 	banner()
 	print('%s 1. >_Token Gratis '%(H))
 	print('%s 2. >_Login Ke Script '%(B))
