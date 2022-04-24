@@ -124,27 +124,27 @@ def login():
 	
 def login_lagi():
 	banner()
-	sky = '>_Token Facebook '
+	sky = '>_𝑳𝒐𝒈𝒊𝒏 𝑴𝒆𝒏𝒈𝒈𝒖𝒏𝒂𝒌𝒂𝒏 𝑻𝒐𝒌𝒆𝒏 𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌 '
 	sky2 = mark(sky, style='green')
 	sol().print(sky2, style='cyan')
-	panda = input('\033[33m>_Token Fb : ')
+	panda = input('\033[33m>_𝑴𝒂𝒔𝒖𝒌𝒂𝒏 𝑻𝒐𝒌𝒆𝒏 𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌 : ')
 	akun=open('.token.txt','w').write(panda)
 	try:
 		tes = requests.get('https://graph.facebook.com/me?access_token='+panda)
 		tes3 = json.loads(tes.text)['id']
-		sue = '>_Login Sukses '
+		sue = '>_𝑳𝒐𝒈𝒊𝒏 𝑺𝒖𝒌𝒔𝒆𝒔 '
 		suu = mark(sue, style='green')
 		sol().print(suu, style='cyan')
 		time.sleep(2.5)
 		menu_test()
 	except KeyError:
-		sue = '>_Login Gagal '
+		sue = '>_𝑳𝒐𝒈𝒊𝒏 𝑮𝒂𝒈𝒂𝒍 '
 		suu = mark(sue, style='red')
 		sol().print(suu, style='cyan')
 		time.sleep(2.5)
 		memek()
 	except requests.exceptions.ConnectionError:
-		li = '>_Koneksi Internet Bermasalah'
+		li = '>_𝑲𝒐𝒏𝒆𝒌𝒔𝒊 𝑰𝒏𝒕𝒆𝒓𝒏𝒆𝒕 𝑩𝒆𝒓𝒎𝒂𝒔𝒂𝒍𝒂𝒉'
 		lo = mark(li, style='red')
 		sol().print(lo, style='cyan')
 		exit()
