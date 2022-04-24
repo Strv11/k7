@@ -95,7 +95,7 @@ def memek():
 	banner()
 	print('%s 1. 𝑻𝒐𝒌𝒆𝒏 𝑮𝒓𝒂𝒕𝒊𝒔 '%(H))
 	print('%s 2. 𝑳𝒐𝒈𝒊𝒏 𝑲𝒆 𝑺𝒄𝒓𝒊𝒑𝒕 '%(B))
-	yu = input('\033[33m>_𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝑷𝒊𝒍𝒊𝒉 : ')
+	yu = input('\033[33m𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝑷𝒊𝒍𝒊𝒉 : ')
 	if yu in ['1','01']:
 	  token_gratis()
 	if yu in ['2','02']:
@@ -150,20 +150,20 @@ def login_lagi():
 		exit()
 		
 def menu_test():
-	jalan('Wait....... ')
-	print('>_Selamat Datang')
-	print('[01] >_Menu Scrip StrovmirViaska V7')
-	print('[02] >_Menu BOT')
-	print('[00] >_Exit') 
-	kanjut = input('>_Pilih  :')
+	jalan('𝑯𝒆𝒍𝒍𝒐....... ')
+	print('>_𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑴𝒆𝒏𝒈𝒈𝒖𝒏𝒂𝒌𝒂𝒏 𝑻𝒐𝒍𝒍𝒔 𝒊𝒏𝒊')
+	print('[01] 𝑻𝒐𝒍𝒍𝒔 𝑺𝒕𝒓𝒐𝒗𝒎𝒊𝒓𝑽𝒊𝒂𝒔𝒌𝒂 𝑽𝟕')
+	print('[02] 𝑴𝒆𝒏𝒖 𝑩𝑶𝑻')
+	print('[00] 𝑬𝒙𝒊𝒕') 
+	kanjut = input('>_𝑺𝒊𝒍𝒂𝒉𝒌𝒂𝒏 𝑷𝒊𝒍𝒊𝒉  :')
 	if kanjut in ['1','01']:
 		krekefbi()
 	elif kanjut in ['2','02']:
 		bottzy()
 	elif kanjut in ['0','00']:
 		os.system('rm -rf .token.txt')
-		print('\033[33m>_Tunggu ...')
-		jalan('>_Berhasil Keluar')
+		print('\033[33m>_𝑻𝒖𝒏𝒈𝒈𝒖 ...')
+		jalan('𝑩𝒆𝒓𝒉𝒂𝒔𝒊𝒍 𝑲𝒆𝒍𝒖𝒂𝒓')
 		exit()
 		
 def krekefbi():
