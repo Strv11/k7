@@ -82,9 +82,10 @@ def clear():
 	os.system('clear')
 def back():
 	login()
+
 def banner():
 	 os.system("clear")
-    print(f"""    
+    print(f"""%s   
 \33[31m░██████╗████████╗██████╗░██╗░░░██╗
 \33[31m██╔════╝╚══██╔══╝██╔══██╗██║░░░██║
 \33[31m╚█████╗░░░░██║░░░██████╔╝╚██╗░██╔╝
@@ -96,7 +97,7 @@ def banner():
 \x1b[0;34m█  \33[mFacebook: Strovmirviaska            
 \x1b[0;34m█  \33[mWhatsApp: 082290885204             
 \x1b[0;34m█  \33[mTools : \33[1;96mPremium V7    
-\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"""%(N))
 def janda_sebalah():#line:42
   try :#line:43
 def memek():
