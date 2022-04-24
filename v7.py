@@ -98,7 +98,10 @@ print("""%s\x1b[0;34m█  \33[mFacebook: Strovmirviaska """%(h))
 print("""%s\x1b[0;34m█  \33[mWhatsApp: 082290885204 """%(h))             
 print("""%s\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7 """%(h))    
 print("""%s\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"""%(h))
+
 def memek():
+	try :#line:43
+    os .system ('clear')
 	banner()
 	print('%s 1. >_Token Gratis '%(H))
 	print('%s 2. >_Login Ke Script '%(B))
@@ -1490,7 +1493,7 @@ def janda_sebalah():#line:42
           open ('apikey.txt','w').write (O000O000OOO000OOO )#line:60 #ganti token & id om
           print (f"{H}[{P}*{H}]{P} Expired :{K} {OOO00OO00O0O0OOOO['expires'].split('T')[0]}");time .sleep (2 );memek()#line:61
     elif OOO00O0OOO00OO00O in ['3','03']:#line:62
-      exit ()#line:63
+      memek ()#line:63
     else :#line:64
       exit (f"{P}[{M}!{P}]{M} Wrong Input")#line:65
   except (KeyError ):#line:66
