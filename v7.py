@@ -101,7 +101,6 @@ print("""%s\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄�
 
 def memek():
 	try :#line:43
-    os .system ('clear')
 	banner()
 	print('%s 1. >_Token Gratis '%(H))
 	print('%s 2. >_Login Ke Script '%(B))
