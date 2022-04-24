@@ -80,8 +80,10 @@ okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 def clear():
 	os.system('clear')
+def back():
+	memek()
 def banner():
-	 clear()
+	 os.system('clear')
 	 banner()
 print("""%s \33[31m░██████╗████████╗██████╗░██╗░░░██╗"""%(h))
 print("""%s\33[31m██╔════╝╚══██╔══╝██╔══██╗██║░░░██║"""%(h))
