@@ -1470,7 +1470,7 @@ def janda_sebalah():#line:42
 {U}[{P}2{U}]{P} 𝑴𝒂𝒔𝒖𝒌𝒂𝒏 𝑨𝒑𝒊 𝑲𝒆𝒚
 {U}[{P}3{U}]{P} 𝑳𝒐𝒈-𝑶𝒖𝒕 {U}[{H}𝑬𝒙𝒊𝒕{U}]{H}
 """)#line:49
-    OOO00O0OOO00OO00O =input (f"{H}[{P}?{H}]{P} Choose :{K} ")#line:50
+    OOO00O0OOO00OO00O =input (f"{H}[{P}?{H}]{P} 𝑪𝒉𝒐𝒐𝒔𝒆 :{K} ")#line:50
     if OOO00O0OOO00OO00O in ['1','01']:#line:51
       print (f"{H}[{P}!{H}]{P} Send Message..");time .sleep (3 );os .system ('xdg-open https://wa.me/6282290885204?text=Bang+Kok+kamu+ganteng+sih');exit ()#line:52
     elif OOO00O0OOO00OO00O in ['2','02']:#line:53
