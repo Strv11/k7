@@ -91,13 +91,12 @@ def banner():
 \33[37m░╚═══██╗░░░██║░░░██╔══██╗░╚████╔╝░
 \33[37m██████╔╝░░░██║░░░██║░░██║░░╚██╔╝░░
 \33[37m╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
-
-{P}[•]{B}----------------------------------------------------{P}[•]
-{B} |
-{P}[•] AUTHOR : STROVMIRVIASKA
-{P}[•] WHATSAPP : 082290885204
-{B}[•] FACEBOOK : Teddy Cahyo Putra Pangembara""")
-
+\x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+\x1b[0;34m█  \33[mGithub: https://github.com/Strv11   
+\x1b[0;34m█  \33[mFacebook: Strovmirviaska            
+\x1b[0;34m█  \33[mWhatsApp: 082290885204             
+\x1b[0;34m█  \33[mTools : \33[1;96mPremium V7    
+\x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 def memek():
 	banner()
 	print('%s 1. >_Token Gratis '%(H))
