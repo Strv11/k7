@@ -505,7 +505,7 @@ def dump_massal():
 	cetak(nel(win, title='𝑫𝒖𝒎𝒑 𝑴𝒂𝒔𝒔𝒂𝒍'))
 	print(x+'['+h+'•'+x+'] 𝑴𝒂𝒔𝒖𝒌𝒌𝒂𝒏 𝑱𝒖𝒎𝒍𝒂𝒉 𝑰𝑫 (𝑳𝒊𝒎𝒊𝒕 10)')
 	try:
-		jum = int(input(x+'['+p+'f'+x+'] BERAPA ID : '))
+		jum = int(input(x+'['+p+'f'+x+'] 𝑩𝒆𝒓𝒂𝒑𝒂 𝑰𝑫 : '))
 	except ValueError:
 		pesan = '# 𝑰𝒏𝒑𝒖𝒕 𝒀𝒂𝒏𝒈 𝑨𝒏𝒅𝒂 𝑴𝒂𝒔𝒖𝒌𝒌𝒂𝒏 𝑩𝒖𝒌𝒂𝒏 𝑨𝒏𝒈𝒌𝒂'
 		pesan2 = mark(pesan, style='red')
@@ -548,12 +548,12 @@ def dump_massal():
 	setting()
 
 def setting():
-	wl = '>_Set Urutan ID'
+	wl = '>_𝑺𝒆𝒕 𝑼𝒓𝒖𝒕𝒂𝒏 𝑰𝑫'
 	sol().print(mark(wl, style='cyan'))
-	teks = '[01] >_Crack Dari Akun Tua (None)\n[02] >_Crack Dari Akun Muda (None)'
+	teks = '[01] >_𝑪𝒓𝒂𝒄𝒌 𝑫𝒂𝒓𝒊 𝑨𝒌𝒖𝒏 𝑻𝒖𝒂 (𝑵𝒐𝒏𝒆)\n[02] >_𝑪𝒓𝒂𝒄𝒌 𝑫𝒂𝒓𝒊 𝑨𝒌𝒖𝒏 𝑴𝒖𝒅𝒂 (𝑵𝒐𝒏𝒆)'
 	tak = nel(teks, style='cyan')
 	cetak(nel(tak, title='>_Set'))
-	hu = input('\033[33m>_Pilih : ')
+	hu = input('\033[33m>_𝑷𝑰𝑳𝑰𝑯 : ')
 	if hu in ['1','01']:
 		for bacot in id:
 			id2.append(bacot)
@@ -562,10 +562,10 @@ def setting():
 			id2.insert(0,bacot)
 	
 	else:
-		ric = '>_Pilihan Tidak Ada Dimenu'
+		ric = '>_𝑷𝒊𝒍𝒊𝒉𝒂𝒏 𝑻𝒊𝒅𝒂𝒌 𝑨𝒅𝒂 𝑫𝒊𝒎𝒆𝒏𝒖'
 		sol().print(mark(ric, style='red'))
 		exit()
-	met = '>_Pilih Methods Crack'
+	met = '>_𝑷𝒊𝒍𝒊𝒉 𝑴𝒆𝒕𝒉𝒐𝒅𝒔 𝑪𝒓𝒂𝒄𝒌'
 	sol().print(mark(met, style='cyan'))
 	ioz = '[01] >_Methode B-Api\n[02] >_Methode Mobile\n[03] >_Methode Mbasic\n[04]>_Methode Touch [New]\n[05]>_Methode FB X [New]\n[06]>_Methode Free FB [New]'
 	gess = nel(ioz, style='cyan')
@@ -1456,19 +1456,19 @@ def kontol():
 \33[37m██████╔╝░░░██║░░░██║░░██║░░╚██╔╝░░
 \33[37m╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
 \x1b[0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-\x1b[0;34m█  \33[mGithub: https://github.com/Strv11   
-\x1b[0;34m█  \33[mFacebook: Teddy Cahyo Putra Pangembara            
-\x1b[0;34m█  \33[mWhatsApp: 082290885204             
-\x1b[0;34m█  \33[mTools : \33[1;96m Scrip Premium    
+\x1b[0;34m█  \33[m𝙂𝙞𝙩𝙝𝙪𝙗: 𝙝𝙩𝙩𝙥𝙨://𝙜𝙞𝙩𝙝𝙪𝙗.𝙘𝙤𝙢/𝙎𝙩𝙧𝙫𝟭𝟭   
+\x1b[0;34m█  \33[m𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠: 𝙏𝙚𝙙𝙙𝙮 𝘾𝙖𝙝𝙮𝙤 𝙋𝙪𝙩𝙧𝙖 𝙋𝙖𝙣𝙜𝙚𝙢𝙗𝙖𝙧𝙖            
+\x1b[0;34m█  \33[m𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥: 𝟬𝟴𝟮𝟮𝟵𝟬𝟴𝟴𝟱𝟮𝟬𝟰             
+\x1b[0;34m█  \33[mTools : \33[1;96m 𝙎𝙘𝙧𝙞𝙥𝙩 𝙋𝙧𝙚𝙢𝙞𝙪𝙢    
 \x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 def janda_sebalah():#line:42
   try :#line:43
     os .system ('clear')
     kontol()
     print (f"""
-{U}[{P}1{U}]{P} Tanya Licensi Trial
-{U}[{P}2{U}]{P} Masukan Api Key
-{U}[{P}3{U}]{P} Log-Out {U}[{H}Exit{U}]{H}
+{U}[{P}1{U}]{P} 𝑻𝒂𝒏𝒚𝒂 𝑳𝒊𝒄𝒆𝒏𝒔𝒊 𝑻𝒓𝒊𝒂𝒍
+{U}[{P}2{U}]{P} 𝑴𝒂𝒔𝒖𝒌𝒂𝒏 𝑨𝒑𝒊 𝑲𝒆𝒚
+{U}[{P}3{U}]{P} 𝑳𝒐𝒈-𝑶𝒖𝒕 {U}[{H}𝑬𝒙𝒊𝒕{U}]{H}
 """)#line:49
     OOO00O0OOO00OO00O =input (f"{H}[{P}?{H}]{P} Choose :{K} ")#line:50
     if OOO00O0OOO00OO00O in ['1','01']:#line:51
@@ -1485,9 +1485,9 @@ def janda_sebalah():#line:42
     elif OOO00O0OOO00OO00O in ['3','03']:#line:62
       exit ()#line:63
     else :#line:64
-      exit (f"{P}[{M}!{P}]{M} Wrong Input")#line:65
+      exit (f"{P}[{M}!{P}]{M} 𝑾𝒓𝒐𝒏𝒈 𝑰𝒏𝒑𝒖𝒕")#line:65
   except (KeyError ):#line:66
-    exit (f"{P}[{M}!{P}]{M} Api Key Invalid")#line:67
+    exit (f"{P}[{M}!{P}]{M} 𝑨𝒑𝒊 𝑲𝒆𝒚 𝑰𝒏𝒗𝒂𝒍𝒊𝒅")#line:67
   except Exception as O0OO00OOO000OOO00 :#line:68
     exit (f"{P}[{M}!{P}]{M} {O0OO00OOO000OOO00}")#line:69
 
