@@ -97,6 +97,8 @@ def banner():
 \x1b[0;34m█  \33[mWhatsApp: 082290885204             
 \x1b[0;34m█  \33[mTools : \33[1;96mPremium V7    
 \x1b[0;34m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+def janda_sebalah():#line:42
+  try :#line:43
 def memek():
 	banner()
 	print('%s 1. >_Token Gratis '%(H))
